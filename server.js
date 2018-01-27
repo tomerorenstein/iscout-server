@@ -90,7 +90,9 @@ module.exports = Promise.coroutine(function*() {
         {
             register: require('./lib/routes_settings'),
             options: {
-                prefix: '/api'
+                prefix: '/api',
+                playerPrefix: '/player',
+                scouterPrefix: '/scouter'
             }
         }
     ]);
