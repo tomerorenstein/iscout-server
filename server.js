@@ -82,7 +82,7 @@ module.exports = Promise.coroutine(function*() {
             register: require('hapi-swagger'),
             options: {
                 info: {
-                    title: 'calculator',
+                    title: 'iscout',
                     version: Package.version
                 }
             }
