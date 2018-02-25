@@ -31,7 +31,10 @@
     "inert": "^4.0.2",
     "joi": "^9.0.4",
     "mysql": "^2.15.0",
+    "mysql2": "^1.5.2",
+    "promise-mysql": "^3.2.1",
     "request": "^2.74.0",
+    "util.promisify": "^1.0.0",
     "uuid": "^2.0.2",
     "vision": "^4.1.0"
   },
