@@ -17,6 +17,7 @@
   },
   "author": "Tomer Orenstein",
   "dependencies": {
+    "async": "^2.6.0",
     "bluebird": "^3.4.3",
     "boom": "^3.2.2",
     "fast-crc32c": "^1.0.4",
