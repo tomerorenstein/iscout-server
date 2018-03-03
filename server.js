@@ -56,6 +56,7 @@ module.exports = Promise.coroutine(function*() {
     const server = new Hapi.Server();
     server.connection({
         port: Config.port,
+        routes: { cors: true },
         labels: ['api']
     });
 
