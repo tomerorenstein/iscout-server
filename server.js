@@ -93,7 +93,8 @@ module.exports = Promise.coroutine(function*() {
             options: {
                 prefix: '/api',
                 playerPrefix: '/player',
-                scouterPrefix: '/scouter'
+                scouterPrefix: '/scouter',
+                globalPrefix: '/global'
             }
         }
     ]);
